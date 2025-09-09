@@ -1,0 +1,27 @@
+[project]
+name = "gemini"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "chromadb>=1.0.20",
+    "ddgs>=9.5.5",
+    "faiss-cpu>=1.12.0",
+    "google-genai>=1.33.0",
+    "hub>=3.0.1",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.29",
+    "langchain-google-genai>=2.1.10",
+    "langchain-huggingface>=0.3.1",
+    "pdf2image>=1.17.0",
+    "pdfplumber>=0.11.7",
+    "pi-heif>=1.1.0",
+    "pypdf2>=3.0.1",
+    "pytesseract>=0.3.13",
+    "python-dotenv>=1.1.1",
+    "sentence-transformers>=5.1.0",
+    "streamlit>=1.49.1",
+    "unstructured>=0.18.14",
+    "unstructured-inference>=1.0.5",
+]
